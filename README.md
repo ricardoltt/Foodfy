@@ -11,7 +11,7 @@ Nesse projeto eu aprendi:
 
 
 
-[![gif tela](https://github.com/ricardoltt/foodfy/blob/master/public/assets/screengif.gif)]
+![gif tela](https://github.com/ricardoltt/foodfy/blob/master/public/assets/screengif.gif)
 
 ### 💻 Tecnologias
 
