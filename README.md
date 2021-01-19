@@ -11,7 +11,7 @@ Nesse projeto eu aprendi:
 
 
 
-[![gif tela](https://github.com/ricardoltt/dio_interfaceNetflix/raw/master/apresentacao-respons.gif)](https://github.com/ricardoltt/dio_interfaceNetflix/blob/master/apresentacao-respons.gif) 
+[![gif tela](https://github.com/ricardoltt/foodfy/blob/master/public/assets/screengif.gif)
 
 ### 💻 Tecnologias
 
