@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    min-height: 100vh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#logo {
+    margin-right: 122px;
+}
+
+header div {
+    display: flex;
+    padding-right: 16%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    align-items: center;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    padding-right: 2%;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+#container-about {
+    height:100%
+}
+
+.front-page {
+    background-color: #FBDFDB;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 17%;
+    margin-bottom: 50px;
+    background-image: url('../assets/chef.png');
+    background-repeat: no-repeat;
+    background-position: bottom right 100px;
+}
+
+.frontpagetext{
+    padding: 100px;
+}
+
+.frontpagetext h1{
+    font-family: 'Roboto-Bold', sans-serif;
+    font-size: 32px;
+    color: #111111;     
+    margin-bottom: 10px;   
+}
+
+.frontpagetext h2{
+    opacity: 0.7;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 18px;
+    color: #000000;
+    line-height: 28px;
+}
+
+.frontpageimg img{
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0;
+}
+
+body h1{
+    font-family: 'Roboto-Bold', sans-serif;
+    font-size: 24px;
+    color: #111111;
+    margin-bottom: 10px;
+}
+
+body h2 {
+    font-family: 'Roboto-Bold', sans-serif;
+    font-size: 20px;
+    color: #111111;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 50px
+}
+
+.card_img-container img{
+    border-radius: 15px;
+    max-width: 100%;
+}
+
+.card_content p, .card_info p{
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 18px;
+    color: #111111;
+}
+.card_content p {
+    margin: 10px 0 auto;
+}
+.card_info p{
+    font-weight: 300;
+    margin: 10px 0 auto;
+    font-size: revert;
+    color: #777777;
+}
+
+.footer {
+    padding: 23px 0;
+    background-color: #eee;
+    margin-top: auto;
+    text-align: center;
+    opacity: 0.9;
+}
+
+.footer p {
+    font-family: 'Roboto-Regular', sans-serif;
+    color: #999;
+}
+
+.texts p {
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 18px;
+    color: #444444;
+    line-height: 28px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#strong-about:hover, #strong-receita:hover {
+    font-weight: bolder;
+}
+
+
+/*=== RECIPE ===*/
+
+.recipe-wrapper {
+    margin: 50px 231px;
+    min-width: 940px;
+  }
+  
+  .recipe-wrapper img {
+    max-width: 940px;
+    max-height: 280px;
+    border-radius: 15px;
+    margin: 0 auto;
+  }
+  
+  .recipe-wrapper h3 {
+    text-align: center;
+    font-size: 36px;
+    color: #111111;
+    font-family: 'Roboto-Bold', sans-serif;
+    margin-top: 50px;
+}
+  
+  .recipe-wrapper .author {
+    text-align: center;
+    font-size: 20px;
+    color: #777777;
+  }
+  
+  .ingredients__title,
+  .preparation__title,
+  .info__title {
+    display: flex;
+    align-items: baseline;
+    margin-top: 50px;
+  }
+  
+  .ingredients__title h2,
+  .preparation__title h2,
+  .info__title h2 {
+    font-size: 24px;
+    line-height: 28px;
+    font-family: 'Roboto-Bold', sans-serif;
+    text-align: left;
+    margin-right: 8px;
+  }
+  
+  .ingredients__title a.button,
+  .preparation__title a.button,
+  .info__title a.button {
+    font-size: 12px;
+    font-family: 'Roboto-Bold', sans-serif;
+    color: #999999;
+  }
+  
+  .ingredients__title a.button:hover,
+  .preparation__title a.button:hover,
+  .info__title a.button:hover {
+    cursor: pointer;
+  }
+  
+  .recipe__list,
+  .content {
+    margin-top: 20px;
+  }
+  
+  .content.show li,
+  .content.show {
+    font-size: 18px;
+    line-height: 28px;
+    color: #444444;
+  }
+  
+  
+  /*=== ACTIVE/DESATIVE ===*/
+  
+  .content.show {
+    padding-bottom: 5%;
+    display: block;
+    list-style-position: inside;
+  }
+  
+  .content.hide {
+    max-width: 940px;
+    display: none;
+    overflow: hidden;
+  }
